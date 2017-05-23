@@ -1,14 +1,14 @@
 /* fonts */
 
 div.jqcloud {
-  font-family: "Helvetica", "Arial", sans-serif;
-  font-size: 10px;
-  line-height: normal;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 10px;
+    line-height: normal;
 }
 
 div.jqcloud a {
-  font-size: inherit;
-  text-decoration: none;
+    font-size: inherit;
+    text-decoration: none;
 }
 
 div.jqcloud span.w10 { font-size: 550%; }
@@ -42,19 +42,18 @@ div.jqcloud span.w1 { color: #aab5f0; }
 /* layout */
 
 div.jqcloud {
-  overflow: hidden;
-  position: relative;
+    overflow: hidden;
+    position: relative;
 }
 
 div.jqcloud span { padding: 0; }
 
 div#example {
-    width: 200px;
-    height: 200px;
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -100px;
-    margin-left: -100px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-250px;
+    margin-left:-450px;
+    width:900px;
+    height:500px;
 }

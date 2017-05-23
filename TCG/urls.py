@@ -20,5 +20,5 @@ from TCG.views import home, tcg
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^prova/$', home),
-    url(r'^tcg/$', tcg)
+    url(r'^tcg/$', tcg),
 ]

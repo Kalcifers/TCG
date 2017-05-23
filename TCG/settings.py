@@ -124,3 +124,5 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
     '/var/www/static/',
 ]
+
+PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
